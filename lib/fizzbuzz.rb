@@ -7,7 +7,5 @@ In all other cases, the program simply returns the given number.
 =end
 
 def fizzbuzz(num)
-	if num % 3 == 0
-		'fizz'
-	end
+	'fizz' if num % 3 == 0
 end
