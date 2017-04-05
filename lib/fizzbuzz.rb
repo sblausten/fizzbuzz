@@ -7,6 +7,10 @@ In all other cases, the program simply returns the given number.
 =end
 
 def fizzbuzz(num)
-	return 'fizz' if num % 3 == 0
-	return 'buzz' if num % 5 == 0
+
+	string = ''
+	string +='fizz' if num % 3 == 0
+	string +='buzz' if num % 5 == 0
+	string
+	
 end
