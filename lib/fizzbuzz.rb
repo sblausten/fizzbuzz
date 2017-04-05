@@ -11,6 +11,7 @@ def fizzbuzz(num)
 	string = ''
 	string +='fizz' if num % 3 == 0
 	string +='buzz' if num % 5 == 0
+	string = num if string.empty? || num == 0
 	string
-	
+
 end
